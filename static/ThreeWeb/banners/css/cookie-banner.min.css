@@ -1,0 +1,675 @@
+.gte-tablet .notification#rwd-cookie-message ._button,
+.notification#rwd-cookie-message .gte-tablet ._button {
+    display: inline-block;
+    float: none
+}
+
+.gte-tablet .notification#rwd-cookie-message .span2._button,
+.notification#rwd-cookie-message .gte-tablet .span2._button {
+    width: 13.725vw
+}
+
+.widescreen .notification#rwd-cookie-message .span2._button,
+.notification#rwd-cookie-message .widescreen .span2._button {
+    width: 9.117vw
+}
+
+.gte-tablet .notification#rwd-cookie-message ._button,
+.notification#rwd-cookie-message .gte-tablet ._button {
+    width: 21.35vw
+}
+
+.widescreen .notification#rwd-cookie-message ._button,
+.notification#rwd-cookie-message .widescreen ._button {
+    width: 14.182vw
+}
+
+.gte-tablet .notification#rwd-cookie-message .span4._button,
+.notification#rwd-cookie-message .gte-tablet .span4._button {
+    width: 28.975vw
+}
+
+.widescreen .notification#rwd-cookie-message .span4._button,
+.notification#rwd-cookie-message .widescreen .span4._button {
+    width: 19.248vw
+}
+
+.gte-tablet .notification#rwd-cookie-message ._button~.button,
+.notification#rwd-cookie-message .gte-tablet ._button~.button {
+    margin-left: 1.525vw
+}
+
+.widescreen .notification#rwd-cookie-message ._button~.button,
+.notification#rwd-cookie-message .widescreen ._button~.button {
+    margin-left: 1.013vw
+}
+
+.notification#rwd-cookie-message ._button {
+    cursor: pointer;
+    font-size: .875rem;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-style: solid;
+    border-width: 2px;
+    line-height: 2.25rem;
+    padding: 0 20px;
+    width: 100%;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out
+}
+
+.notification#rwd-cookie-message .barbie-bg._button,
+.notification#rwd-cookie-message .barbie.primary._button,
+.notification#rwd-cookie-message :checked+.barbie._button,
+.notification#rwd-cookie-message .checked+.barbie._button,
+.notification#rwd-cookie-message .clooney-bg._button,
+.notification#rwd-cookie-message .clooney.primary._button,
+.notification#rwd-cookie-message :checked+.clooney._button,
+.notification#rwd-cookie-message .checked+.clooney._button,
+.notification#rwd-cookie-message .hucknall-bg._button,
+.notification#rwd-cookie-message .hucknall.primary._button,
+.notification#rwd-cookie-message :checked+.hucknall._button,
+.notification#rwd-cookie-message .checked+.hucknall._button,
+.notification#rwd-cookie-message .hulk-bg._button,
+.notification#rwd-cookie-message .hulk.primary._button,
+.notification#rwd-cookie-message :checked+.hulk._button,
+.notification#rwd-cookie-message .checked+.hulk._button,
+.notification#rwd-cookie-message .ken-bg._button,
+.notification#rwd-cookie-message .ken.primary._button,
+.notification#rwd-cookie-message :checked+.ken._button,
+.notification#rwd-cookie-message .checked+.ken._button,
+.notification#rwd-cookie-message .kermit-bg._button,
+.notification#rwd-cookie-message .kermit.primary._button,
+.notification#rwd-cookie-message :checked+.kermit._button,
+.notification#rwd-cookie-message .checked+.kermit._button,
+.notification#rwd-cookie-message .maggie-bg._button,
+.notification#rwd-cookie-message .maggie.primary._button,
+.notification#rwd-cookie-message :checked+.maggie._button,
+.notification#rwd-cookie-message .checked+.maggie._button,
+.notification#rwd-cookie-message .prince-bg._button,
+.notification#rwd-cookie-message .prince.primary._button,
+.notification#rwd-cookie-message :checked+.prince._button,
+.notification#rwd-cookie-message .checked+.prince._button,
+.notification#rwd-cookie-message .vader-bg._button,
+.notification#rwd-cookie-message .vader.primary._button,
+.notification#rwd-cookie-message :checked+.vader._button,
+.notification#rwd-cookie-message .checked+.vader._button,
+.notification#rwd-cookie-message ._button:focus,
+.notification#rwd-cookie-message [class]._button:hover,
+.notification#rwd-cookie-message .primary._button:hover,
+.notification#rwd-cookie-message [class]._button:active,
+.notification#rwd-cookie-message .primary._button:active,
+.notification#rwd-cookie-message .barry-bg._button,
+.notification#rwd-cookie-message .barry.primary._button,
+.notification#rwd-cookie-message :checked+.barry._button,
+.notification#rwd-cookie-message .checked+.barry._button,
+.notification#rwd-cookie-message .wuntu-homer-bg._button,
+.notification#rwd-cookie-message .wuntu-homer.primary._button,
+.notification#rwd-cookie-message :checked+.wuntu-homer._button,
+.notification#rwd-cookie-message .checked+.wuntu-homer._button,
+.notification#rwd-cookie-message .wuntu-marge-bg._button,
+.notification#rwd-cookie-message .wuntu-marge.primary._button,
+.notification#rwd-cookie-message :checked+.wuntu-marge._button,
+.notification#rwd-cookie-message .checked+.wuntu-marge._button,
+.notification#rwd-cookie-message .wuntu-ralph-bg._button,
+.notification#rwd-cookie-message .wuntu-ralph.primary._button,
+.notification#rwd-cookie-message :checked+.wuntu-ralph._button,
+.notification#rwd-cookie-message .checked+.wuntu-ralph._button,
+.notification#rwd-cookie-message .wuntu-blinky-bg._button,
+.notification#rwd-cookie-message .wuntu-blinky.primary._button,
+.notification#rwd-cookie-message :checked+.wuntu-blinky._button,
+.notification#rwd-cookie-message .checked+.wuntu-blinky._button,
+.notification#rwd-cookie-message .wuntu-patty-bg._button,
+.notification#rwd-cookie-message .wuntu-patty.primary._button,
+.notification#rwd-cookie-message :checked+.wuntu-patty._button,
+.notification#rwd-cookie-message .checked+.wuntu-patty._button,
+.notification#rwd-cookie-message .wuntu-krusty-bg._button,
+.notification#rwd-cookie-message .wuntu-krusty.primary._button,
+.notification#rwd-cookie-message :checked+.wuntu-krusty._button,
+.notification#rwd-cookie-message .checked+.wuntu-krusty._button,
+.notification#rwd-cookie-message .wuntu-terri-bg._button,
+.notification#rwd-cookie-message .wuntu-terri.primary._button,
+.notification#rwd-cookie-message :checked+.wuntu-terri._button,
+.notification#rwd-cookie-message .checked+.wuntu-terri._button,
+.notification#rwd-cookie-message .wuntu-itchy-bg._button,
+.notification#rwd-cookie-message .wuntu-itchy.primary._button,
+.notification#rwd-cookie-message :checked+.wuntu-itchy._button,
+.notification#rwd-cookie-message .checked+.wuntu-itchy._button,
+.notification#rwd-cookie-message .wuntu-willie-bg._button,
+.notification#rwd-cookie-message .wuntu-willie.primary._button,
+.notification#rwd-cookie-message :checked+.wuntu-willie._button,
+.notification#rwd-cookie-message .checked+.wuntu-willie._button {
+    color: #fff
+}
+
+.notification#rwd-cookie-message .barbie-bg._button,
+.notification#rwd-cookie-message .barbie.primary._button,
+.notification#rwd-cookie-message :checked+.barbie._button,
+.notification#rwd-cookie-message .checked+.barbie._button {
+    background-color: #e90066
+}
+
+.notification#rwd-cookie-message .barbie-bg._button,
+.notification#rwd-cookie-message .barbie._button {
+    border-color: #e90066
+}
+
+.notification#rwd-cookie-message .clooney-bg._button,
+.notification#rwd-cookie-message .clooney.primary._button,
+.notification#rwd-cookie-message :checked+.clooney._button,
+.notification#rwd-cookie-message .checked+.clooney._button {
+    background-color: #767676
+}
+
+.notification#rwd-cookie-message .clooney-bg._button,
+.notification#rwd-cookie-message .clooney._button {
+    border-color: #767676
+}
+
+.notification#rwd-cookie-message .hucknall-bg._button,
+.notification#rwd-cookie-message .hucknall.primary._button,
+.notification#rwd-cookie-message :checked+.hucknall._button,
+.notification#rwd-cookie-message .checked+.hucknall._button {
+    background-color: #dc350e
+}
+
+.notification#rwd-cookie-message .hucknall-bg._button,
+.notification#rwd-cookie-message .hucknall._button {
+    border-color: #dc350e
+}
+
+.notification#rwd-cookie-message .hulk-bg._button,
+.notification#rwd-cookie-message .hulk.primary._button,
+.notification#rwd-cookie-message :checked+.hulk._button,
+.notification#rwd-cookie-message .checked+.hulk._button {
+    background-color: #00864e
+}
+
+.notification#rwd-cookie-message .hulk-bg._button,
+.notification#rwd-cookie-message .hulk._button {
+    border-color: #00864e
+}
+
+.notification#rwd-cookie-message .ken-bg._button,
+.notification#rwd-cookie-message .ken.primary._button,
+.notification#rwd-cookie-message :checked+.ken._button,
+.notification#rwd-cookie-message .checked+.ken._button {
+    background-color: #ec0044
+}
+
+.notification#rwd-cookie-message .ken-bg._button,
+.notification#rwd-cookie-message .ken._button {
+    border-color: #ec0044
+}
+
+.notification#rwd-cookie-message .kermit-bg._button,
+.notification#rwd-cookie-message .kermit.primary._button,
+.notification#rwd-cookie-message :checked+.kermit._button,
+.notification#rwd-cookie-message .checked+.kermit._button {
+    background-color: #00857b
+}
+
+.notification#rwd-cookie-message .kermit-bg._button,
+.notification#rwd-cookie-message .kermit._button {
+    border-color: #00857b
+}
+
+.notification#rwd-cookie-message .maggie-bg._button,
+.notification#rwd-cookie-message .maggie.primary._button,
+.notification#rwd-cookie-message :checked+.maggie._button,
+.notification#rwd-cookie-message .checked+.maggie._button {
+    background-color: #007bc3
+}
+
+.notification#rwd-cookie-message .maggie-bg._button,
+.notification#rwd-cookie-message .maggie._button {
+    border-color: #007bc3
+}
+
+.notification#rwd-cookie-message .prince-bg._button,
+.notification#rwd-cookie-message .prince.primary._button,
+.notification#rwd-cookie-message :checked+.prince._button,
+.notification#rwd-cookie-message .checked+.prince._button {
+    background-color: #82368c
+}
+
+.notification#rwd-cookie-message .prince-bg._button,
+.notification#rwd-cookie-message .prince._button {
+    border-color: #82368c
+}
+
+.notification#rwd-cookie-message .barbie._button,
+.notification#rwd-cookie-message .clooney._button,
+.notification#rwd-cookie-message .hucknall._button,
+.notification#rwd-cookie-message .hulk._button,
+.notification#rwd-cookie-message .ken._button,
+.notification#rwd-cookie-message .kermit._button,
+.notification#rwd-cookie-message .maggie._button,
+.notification#rwd-cookie-message .prince._button,
+.notification#rwd-cookie-message .vader._button,
+.notification#rwd-cookie-message .barry._button,
+.notification#rwd-cookie-message .wuntu-homer._button,
+.notification#rwd-cookie-message .wuntu-marge._button,
+.notification#rwd-cookie-message .wuntu-ralph._button,
+.notification#rwd-cookie-message .wuntu-blinky._button,
+.notification#rwd-cookie-message .wuntu-patty._button,
+.notification#rwd-cookie-message .wuntu-krusty._button,
+.notification#rwd-cookie-message .wuntu-terri._button,
+.notification#rwd-cookie-message .wuntu-itchy._button,
+.notification#rwd-cookie-message .wuntu-willie._button {
+    color: #000
+}
+
+.notification#rwd-cookie-message .vader-bg._button,
+.notification#rwd-cookie-message .vader.primary._button,
+.notification#rwd-cookie-message :checked+.vader._button,
+.notification#rwd-cookie-message .checked+.vader._button,
+.notification#rwd-cookie-message ._button:focus,
+.notification#rwd-cookie-message [class]._button:hover,
+.notification#rwd-cookie-message .primary._button:hover,
+.notification#rwd-cookie-message [class]._button:active,
+.notification#rwd-cookie-message .primary._button:active {
+    background-color: #000
+}
+
+.notification#rwd-cookie-message .vader-bg._button,
+.notification#rwd-cookie-message ._button:focus,
+.notification#rwd-cookie-message [class]._button:hover,
+.notification#rwd-cookie-message .primary._button:hover,
+.notification#rwd-cookie-message [class]._button:active,
+.notification#rwd-cookie-message .primary._button:active,
+.notification#rwd-cookie-message .vader._button {
+    border-color: #000
+}
+
+.notification#rwd-cookie-message .barry-bg._button,
+.notification#rwd-cookie-message .barry.primary._button,
+.notification#rwd-cookie-message :checked+.barry._button,
+.notification#rwd-cookie-message .checked+.barry._button {
+    background-color: #fff
+}
+
+.notification#rwd-cookie-message .barry-bg._button,
+.notification#rwd-cookie-message .barry._button {
+    border-color: #fff
+}
+
+.notification#rwd-cookie-message .wuntu-homer-bg._button,
+.notification#rwd-cookie-message .wuntu-homer.primary._button,
+.notification#rwd-cookie-message :checked+.wuntu-homer._button,
+.notification#rwd-cookie-message .checked+.wuntu-homer._button {
+    background-color: #f4e765
+}
+
+.notification#rwd-cookie-message .wuntu-homer-bg._button,
+.notification#rwd-cookie-message .wuntu-homer._button {
+    border-color: #f4e765
+}
+
+.notification#rwd-cookie-message .wuntu-marge-bg._button,
+.notification#rwd-cookie-message .wuntu-marge.primary._button,
+.notification#rwd-cookie-message :checked+.wuntu-marge._button,
+.notification#rwd-cookie-message .checked+.wuntu-marge._button {
+    background-color: #6bb3e6
+}
+
+.notification#rwd-cookie-message .wuntu-marge-bg._button,
+.notification#rwd-cookie-message .wuntu-marge._button {
+    border-color: #6bb3e6
+}
+
+.notification#rwd-cookie-message .wuntu-ralph-bg._button,
+.notification#rwd-cookie-message .wuntu-ralph.primary._button,
+.notification#rwd-cookie-message :checked+.wuntu-ralph._button,
+.notification#rwd-cookie-message .checked+.wuntu-ralph._button {
+    background-color: #a1d9dc
+}
+
+.notification#rwd-cookie-message .wuntu-ralph-bg._button,
+.notification#rwd-cookie-message .wuntu-ralph._button {
+    border-color: #a1d9dc
+}
+
+.notification#rwd-cookie-message .wuntu-blinky-bg._button,
+.notification#rwd-cookie-message .wuntu-blinky.primary._button,
+.notification#rwd-cookie-message :checked+.wuntu-blinky._button,
+.notification#rwd-cookie-message .checked+.wuntu-blinky._button {
+    background-color: #f37a20
+}
+
+.notification#rwd-cookie-message .wuntu-blinky-bg._button,
+.notification#rwd-cookie-message .wuntu-blinky._button {
+    border-color: #f37a20
+}
+
+.notification#rwd-cookie-message .wuntu-patty-bg._button,
+.notification#rwd-cookie-message .wuntu-patty.primary._button,
+.notification#rwd-cookie-message :checked+.wuntu-patty._button,
+.notification#rwd-cookie-message .checked+.wuntu-patty._button {
+    background-color: #ecabb9
+}
+
+.notification#rwd-cookie-message .wuntu-patty-bg._button,
+.notification#rwd-cookie-message .wuntu-patty._button {
+    border-color: #ecabb9
+}
+
+.notification#rwd-cookie-message .wuntu-krusty-bg._button,
+.notification#rwd-cookie-message .wuntu-krusty.primary._button,
+.notification#rwd-cookie-message :checked+.wuntu-krusty._button,
+.notification#rwd-cookie-message .checked+.wuntu-krusty._button {
+    background-color: #179b96
+}
+
+.notification#rwd-cookie-message .wuntu-krusty-bg._button,
+.notification#rwd-cookie-message .wuntu-krusty._button {
+    border-color: #179b96
+}
+
+.notification#rwd-cookie-message .wuntu-terri-bg._button,
+.notification#rwd-cookie-message .wuntu-terri.primary._button,
+.notification#rwd-cookie-message :checked+.wuntu-terri._button,
+.notification#rwd-cookie-message .checked+.wuntu-terri._button {
+    background-color: #7070b4
+}
+
+.notification#rwd-cookie-message .wuntu-terri-bg._button,
+.notification#rwd-cookie-message .wuntu-terri._button {
+    border-color: #7070b4
+}
+
+.notification#rwd-cookie-message .wuntu-itchy-bg._button,
+.notification#rwd-cookie-message .wuntu-itchy.primary._button,
+.notification#rwd-cookie-message :checked+.wuntu-itchy._button,
+.notification#rwd-cookie-message .checked+.wuntu-itchy._button {
+    background-color: #a2d0ca
+}
+
+.notification#rwd-cookie-message .wuntu-itchy-bg._button,
+.notification#rwd-cookie-message .wuntu-itchy._button {
+    border-color: #a2d0ca
+}
+
+.notification#rwd-cookie-message .wuntu-willie-bg._button,
+.notification#rwd-cookie-message .wuntu-willie.primary._button,
+.notification#rwd-cookie-message :checked+.wuntu-willie._button,
+.notification#rwd-cookie-message .checked+.wuntu-willie._button {
+    background-color: #ed343e
+}
+
+.notification#rwd-cookie-message .wuntu-willie-bg._button,
+.notification#rwd-cookie-message .wuntu-willie._button {
+    border-color: #ed343e
+}
+
+.notification#rwd-cookie-message .barbie._button,
+.notification#rwd-cookie-message .clooney._button,
+.notification#rwd-cookie-message .hucknall._button,
+.notification#rwd-cookie-message .hulk._button,
+.notification#rwd-cookie-message .ken._button,
+.notification#rwd-cookie-message .kermit._button,
+.notification#rwd-cookie-message .maggie._button,
+.notification#rwd-cookie-message .prince._button,
+.notification#rwd-cookie-message .vader._button,
+.notification#rwd-cookie-message .barry._button,
+.notification#rwd-cookie-message .wuntu-homer._button,
+.notification#rwd-cookie-message .wuntu-marge._button,
+.notification#rwd-cookie-message .wuntu-ralph._button,
+.notification#rwd-cookie-message .wuntu-blinky._button,
+.notification#rwd-cookie-message .wuntu-patty._button,
+.notification#rwd-cookie-message .wuntu-krusty._button,
+.notification#rwd-cookie-message .wuntu-terri._button,
+.notification#rwd-cookie-message .wuntu-itchy._button,
+.notification#rwd-cookie-message .wuntu-willie._button {
+    background: #fff
+}
+
+.notification#rwd-cookie-message ._button:focus {
+    color: #fff
+}
+
+.notification#rwd-cookie-message [class*=icon-][class]._button:hover:before,
+.notification#rwd-cookie-message [class*=icon-].primary._button:hover:before,
+.notification#rwd-cookie-message [class*=icon-][class]._button:active:before,
+.notification#rwd-cookie-message [class*=icon-].primary._button:active:before,
+.notification#rwd-cookie-message [class]._button:hover>[class*=icon-]:before,
+.notification#rwd-cookie-message .primary._button:hover>[class*=icon-]:before,
+.notification#rwd-cookie-message [class]._button:active>[class*=icon-]:before,
+.notification#rwd-cookie-message .primary._button:active>[class*=icon-]:before {
+    color: #fff
+}
+
+.notification#rwd-cookie-message ._button:active {
+    -webkit-transform: scale(.96);
+    -moz-transform: scale(.96);
+    -ms-transform: scale(.96);
+    -o-transform: scale(.96);
+    transform: scale(.96)
+}
+
+.notification#rwd-cookie-message .disabled._button,
+.notification#rwd-cookie-message [disabled]._button {
+    background: #fff;
+    border-style: dashed;
+    cursor: not-allowed;
+    pointer-events: none;
+    color: #000
+}
+
+.phone .notification#rwd-cookie-message p {
+    width: 90% !important
+}
+
+.gte-tablet .notification#rwd-cookie-message p {
+    max-width: 90%;
+    width: auto !important
+}
+
+.notification#rwd-cookie-message {
+    border-bottom: 1px solid #000
+}
+
+.notification#rwd-cookie-message>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+.notification#rwd-cookie-message p {
+    margin-bottom: .5rem;
+    padding-top: .5rem
+}
+
+.notification#rwd-cookie-message a {
+    position: static;
+    float: none;
+    width: auto
+}
+
+.notification#rwd-cookie-message .cross {
+    color: #000
+}
+
+.gte-tablet .notification#rwd-cookie-message.has-custom-close-button .device-width-content {
+    word-spacing: -.275em
+}
+
+.gte-tablet .notification#rwd-cookie-message.has-custom-close-button .device-width-content>* {
+    word-spacing: normal
+}
+
+.gte-tablet .notification#rwd-cookie-message ._button,
+.notification#rwd-cookie-message .gte-tablet ._button {
+    display: inline-block;
+    vertical-align: top
+}
+
+.notification#rwd-cookie-message {
+    display: none;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    z-index: 999
+}
+
+.notification#rwd-cookie-message * {
+    box-sizing: border-box
+}
+
+.notification#rwd-cookie-message i:first-child {
+    color: #e90066
+}
+
+.notification#rwd-cookie-message i:last-child {
+    color: #fff
+}
+
+.notification#rwd-cookie-message.has-custom-close-button .device-width-content>* {
+    display: inline-block
+}
+
+.notification#rwd-cookie-message.has-custom-close-button .device-width-content H2 {
+    display: none
+}
+
+.phone .notification#rwd-cookie-message.has-custom-close-button .device-width-content H2 {
+    margin-top: 0
+}
+
+.gte-tablet .notification#rwd-cookie-message.has-custom-close-button .device-width-content H2 {
+    text-align: right;
+    width: 23.729%
+}
+
+.phone .notification#rwd-cookie-message.has-custom-close-button .device-width-content P {
+    float: left;
+    width: 82.759%;
+    -webkit-text-size-adjust: 100%
+}
+
+.gte-tablet .notification#rwd-cookie-message.has-custom-close-button .device-width-content P {
+    width: 82.051%;
+    -webkit-text-size-adjust: 100%
+}
+
+.widescreen .notification#rwd-cookie-message.has-custom-close-button .device-width-content P {
+    width: 100%
+}
+
+.phone .notification#rwd-cookie-message.has-custom-close-button .device-width-content P.weblogic-para {
+    float: left;
+    width: 82.759%;
+    -webkit-text-size-adjust: 100%
+}
+
+.gte-tablet .notification#rwd-cookie-message.has-custom-close-button .device-width-content P.weblogic-para {
+    width: 82.051%;
+    -webkit-text-size-adjust: 100%
+}
+
+.widescreen .notification#rwd-cookie-message.has-custom-close-button .device-width-content P.weblogic-para {
+    width: 93%
+}
+
+.gte-tablet .notification#rwd-cookie-message.has-custom-close-button .device-width-content .custom-close {
+    width: auto;
+    margin-right: 1%;
+    position: absolute;
+    right: 55px;
+    top: 25px
+}
+
+.phone .notification#rwd-cookie-message.has-custom-close-button .device-width-content .custom-close {
+    width: auto;
+    float: right;
+    margin-right: 1%;
+    margin-top: 15px
+}
+
+.widescreen .notification#rwd-cookie-message.has-custom-close-button .device-width-content .custom-close {
+    width: 15.73%;
+    margin-right: -3% !important
+}
+
+.gte-tablet .notification#rwd-cookie-message.has-custom-close-button .device-width-content .custom-close-weblogic {
+    width: auto;
+    margin-right: 1%;
+    position: absolute;
+    right: 55px;
+    top: 25px
+}
+
+.phone .notification#rwd-cookie-message.has-custom-close-button .device-width-content .custom-close-weblogic {
+    width: auto;
+    float: right;
+    margin-right: 1%;
+    margin-top: 15px
+}
+
+.widescreen .notification#rwd-cookie-message.has-custom-close-button .device-width-content .custom-close-weblogic {
+    width: 15.73%;
+    margin-right: 3% !important
+}
+
+.phone .notification#rwd-cookie-message.has-custom-close-button .device-width-content ._button {
+    text-align: center;
+    margin-top: 15px
+}
+
+.gte-tablet .notification#rwd-cookie-message.has-custom-close-button .device-width-content ._button {
+    width: 23.729%
+}
+
+.notification#rwd-cookie-message .a11y-hide {
+    overflow: hidden !important;
+    position: absolute !important;
+    width: 0 !important;
+    height: 0 !important;
+    display: inline-block !important
+}
+
+.scriptBody+.notification#rwd-cookie-message>div,
+.scriptBody .notification#rwd-cookie-message>div {
+    padding-top: 30px;
+    padding-bottom: 20px
+}
+
+.scriptBody+.notification#rwd-cookie-message>div p,
+.scriptBody .notification#rwd-cookie-message>div p {
+    padding-top: 5px
+}
+
+.scriptBody+.notification#rwd-cookie-message>div p a,
+.scriptBody .notification#rwd-cookie-message>div p a {
+    color: #fff
+}
+
+.scriptBody+.notification#rwd-cookie-message h2,
+.scriptBody .notification#rwd-cookie-message h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px
+}
+
+.scriptBody+.notification#rwd-cookie-message .a11y-hide-text,
+.scriptBody .notification#rwd-cookie-message .a11y-hide-text {
+    color: transparent;
+    font-size: 0
+}
+
+.scriptBody+.notification#rwd-cookie-message.has-custom-close-button .device-width-content ._button,
+.scriptBody .notification#rwd-cookie-message.has-custom-close-button .device-width-content ._button {
+    text-decoration: none;
+    margin-top: 15px;
+    width: auto
+}
+
+/*# sourceMappingURL=cookie-banner.min.css.map */

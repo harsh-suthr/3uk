@@ -1,0 +1,98 @@
+.phone [class*=phone-each-span] {
+    word-spacing: -.275em
+}
+
+.phone [class*=phone-each-span]>* {
+    word-spacing: normal
+}
+
+.phone [class*=phone-each-span]>*,
+.phone .phone-span1,
+.phone .phone-span2,
+.phone .phone-span3,
+.phone .phone-span4,
+.phone .phone-span5 {
+    display: inline-block
+}
+
+.phone [class*=phone-each-span] {
+    display: block;
+    list-style: none
+}
+
+.phone .phone-each-span1>* {
+    width: 13.103%;
+    margin-left: 3.448%
+}
+
+.phone .phone-each-span2>* {
+    width: 29.31%;
+    margin-left: 3.448%
+}
+
+.phone .phone-each-span3>* {
+    width: 44.828%;
+    margin-left: 3.448%
+}
+
+.phone .phone-each-span4>* {
+    width: 62.069%;
+    margin-left: 3.448%
+}
+
+.phone .phone-each-span5>* {
+    width: 79.31%;
+    margin-left: 3.448%
+}
+
+.phone [class*=phone-each-span]>*,
+.phone .phone-span1,
+.phone .phone-span2,
+.phone .phone-span3,
+.phone .phone-span4,
+.phone .phone-span5 {
+    display: inline-block;
+    vertical-align: top
+}
+
+.phone .phone-span1 {
+    width: 13.793%
+}
+
+.phone .phone-span2 {
+    width: 31.034%
+}
+
+.phone .phone-span3 {
+    width: 48.276%
+}
+
+.phone .phone-span4 {
+    width: 65.517%
+}
+
+.phone .phone-span5 {
+    width: 82.759%
+}
+
+.phone .lhs[class*=phone-span] {
+    margin-left: inherit
+}
+
+.phone [class*=phone-each-span] {
+    margin-left: -1.695%
+}
+
+.phone .phone-offset1 {
+    margin-left: 17.241%
+}
+
+.phone .phone-offset2 {
+    margin-left: 34.483%
+}
+
+.phone .phone-offset3 {
+    margin-left: 51.724%
+}
+
+/*# sourceMappingURL=all-span-classes-phone.min.css.map */
