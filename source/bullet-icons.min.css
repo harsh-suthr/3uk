@@ -1,0 +1,1421 @@
+[class*=icon-].bullet-icon:before,
+.bullet-icons>[class*=icon-]:before,
+.bullet-icon>[class*=icon-]:first-child:before,
+.bullet-icons>*>[class*=icon-]:first-child:before,
+.bullet-icons>LI>[class*=icon-]:first-child:before,
+.bullet-icon>A>[class*=icon-]:first-child:before,
+.bullet-icons>*>A>[class*=icon-]:first-child:before {
+    display: inline-block
+}
+
+.bullet-icons [class*="icon-img-"] {
+    background-repeat: no-repeat;
+    background-position: 50% 0
+}
+
+.bullet-icons I[class*="icon-img-"]:after {
+    content: "";
+    display: block;
+    margin-top: 100%
+}
+
+.bullet-icons.inline {
+    display: table;
+    padding-left: 0;
+    width: 100%;
+    white-space: nowrap
+}
+
+.bullet-icons.inline>*,
+.bullet-icons.inline [class*=icon-] {
+    display: table-cell;
+    padding: 0 5%;
+    text-align: center;
+    vertical-align: top
+}
+
+.bullet-icons.inline>*:first-child,
+.bullet-icons.inline [class*=icon-]:first-child {
+    padding-left: 0
+}
+
+.bullet-icons.inline>*:last-child,
+.bullet-icons.inline [class*=icon-]:last-child {
+    padding-right: 0
+}
+
+.bullet-icons.inline>*[class*=icon-]:before {
+    position: static
+}
+
+.bullet-icons.inline>*>[class*=icon-] {
+    padding-right: 5%;
+    position: static
+}
+
+.bullet-icons.inline [class*=icon-][class*=icon-]:before {
+    position: static
+}
+
+.bullet-icons.inline [class*=icon-]>[class*=icon-] {
+    padding-right: 5%;
+    position: static
+}
+
+.bullet-icons.inline>*[class*=icon-]:before,
+.bullet-icons.inline [class*=icon-][class*=icon-]:before {
+    padding: 0
+}
+
+.bullet-icon,
+.bullet-icons>*,
+.bullet-icons>LI {
+    padding-left: 15.513vw
+}
+
+.gte-tablet .bullet-icon,
+.gte-tablet .bullet-icons>*,
+.gte-tablet .bullet-icons>LI {
+    padding-left: 7.625vw
+}
+
+.widescreen .bullet-icon,
+.widescreen .bullet-icons>*,
+.widescreen .bullet-icons>LI {
+    padding-left: 5.065vw
+}
+
+[class*=icon-].bullet-icon:before,
+.bullet-icons>[class*=icon-]:before,
+.bullet-icon>[class*=icon-]:first-child:before,
+.bullet-icons>*>[class*=icon-]:first-child:before,
+.bullet-icons>LI>[class*=icon-]:first-child:before,
+.bullet-icon>A>[class*=icon-]:first-child:before,
+.bullet-icons>*>A>[class*=icon-]:first-child:before {
+    width: 12.41vw
+}
+
+.gte-tablet [class*=icon-].bullet-icon:before,
+.gte-tablet .bullet-icons>[class*=icon-]:before,
+.gte-tablet .bullet-icon>[class*=icon-]:first-child:before,
+.gte-tablet .bullet-icons>*>A>[class*=icon-]:first-child:before,
+.gte-tablet .bullet-icons>LI>A>[class*=icon-]:first-child:before {
+    width: 6.1vw
+}
+
+.widescreen [class*=icon-].bullet-icon:before,
+.widescreen .bullet-icons>[class*=icon-]:before,
+.widescreen .bullet-icon>[class*=icon-]:first-child:before,
+.widescreen .bullet-icons>*>A>[class*=icon-]:first-child:before,
+.widescreen .bullet-icons>LI>A>[class*=icon-]:first-child:before {
+    width: 4.052vw
+}
+
+.small.bullet-icon,
+.small.bullet-icons>* {
+    padding-left: 6.205vw;
+    min-height: 20px
+}
+
+.gte-tablet .small.bullet-icon,
+.gte-tablet .small.bullet-icons>* {
+    padding-left: 3.05vw
+}
+
+.widescreen .small.bullet-icon,
+.widescreen .small.bullet-icons>* {
+    padding-left: 2.026vw
+}
+
+[class*=icon-].small.bullet-icon:before,
+.small.bullet-icons>[class*=icon-]:before,
+.small.bullet-icon>[class*=icon-]:first-child:before,
+.small.bullet-icons>*>A>[class*=icon-]:first-child:before {
+    width: 6.205vw
+}
+
+.gte-tablet [class*=icon-].small.bullet-icon:before,
+.gte-tablet .small.bullet-icons>[class*=icon-]:before,
+.gte-tablet .small.bullet-icon>[class*=icon-]:first-child:before {
+    width: 3.05vw
+}
+
+.widescreen [class*=icon-].small.bullet-icon:before,
+.widescreen .small.bullet-icons>[class*=icon-]:before,
+.widescreen .small.bullet-icon>[class*=icon-]:first-child:before {
+    width: 2.026vw
+}
+
+.bullet-icon,
+.bullet-icons>*,
+.bullet-icons>LI {
+    min-height: 2em;
+    position: relative
+}
+
+[class*=icon-].bullet-icon:before,
+.bullet-icons>[class*=icon-]:before,
+.bullet-icon>[class*=icon-]:first-child:before,
+.bullet-icons>*>[class*=icon-]:first-child:before,
+.bullet-icons>LI>[class*=icon-]:first-child:before,
+.bullet-icon>A>[class*=icon-]:first-child:before,
+.bullet-icons>*>A>[class*=icon-]:first-child:before {
+    font-size: 2rem;
+    display: inline-block;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    vertical-align: top
+}
+
+[class*=icon-].small.bullet-icon:before,
+.small.bullet-icons>[class*=icon-]:before,
+.small.bullet-icon>[class*=icon-]:first-child:before,
+.small.bullet-icons>*>A>[class*=icon-]:first-child:before {
+    font-size: .5rem;
+    line-height: 1.25rem
+}
+
+.bullet-icon.big[class*=icon-]:before,
+.bullet-icons .big[class*=icon-]:before,
+.bullet-icons.big [class*=icon-]:before {
+    font-size: 12.41vw
+}
+
+.gte-tablet .bullet-icon.big[class*=icon-]:before,
+.gte-tablet .bullet-icons .big[class*=icon-]:before,
+.bullet-icons .gte-tablet .big[class*=icon-]:before,
+.gte-tablet .bullet-icons.big [class*=icon-]:before,
+.bullet-icons.big .gte-tablet [class*=icon-]:before {
+    font-size: 4.575vw
+}
+
+.bullet-icon.big,
+.bullet-icons>*.big,
+.bullet-icons.big>* {
+    min-height: 6.1vw
+}
+
+.bullet-icon.big.above[class*=icon-]:before,
+.bullet-icons.above .big[class*=icon-]:before,
+.bullet-icons .big.above[class*=icon-]:before,
+.bullet-icons.big.above [class*=icon-]:before {
+    display: block;
+    font-size: 6.1vw;
+    margin-bottom: .2em;
+    position: static
+}
+
+.bullet-icon.above,
+.bullet-icons.above>*,
+.bullet-icons.above a.icon-ring {
+    padding-left: 0 !important;
+    text-align: center
+}
+
+.bullet-icon.above:before,
+.bullet-icons.above>*:before,
+.bullet-icons.above a.icon-ring:before {
+    margin-left: 50%;
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0)
+}
+
+.bullet-icons.above a:hover span {
+    text-decoration: underline
+}
+
+.bullet-icons.above a:hover:before {
+    text-decoration: none !important
+}
+
+LI.bullet-icon.above,
+.bullet-icons.above LI {
+    padding-top: .625em;
+    padding-bottom: .625em
+}
+
+.phone a.icon-ring {
+    position: relative
+}
+
+.barbie-bg,
+.icon-ring.fill.barbie:before,
+.icon-ring.fill-toggle.barbie:hover:before,
+.icon-ring.fill-toggle.barbie:focus:before,
+.clooney-bg,
+.icon-ring.fill.clooney:before,
+.icon-ring.fill-toggle.clooney:hover:before,
+.icon-ring.fill-toggle.clooney:focus:before,
+.hucknall-bg,
+.icon-ring.fill.hucknall:before,
+.icon-ring.fill-toggle.hucknall:hover:before,
+.icon-ring.fill-toggle.hucknall:focus:before,
+.hulk-bg,
+.icon-ring.fill.hulk:before,
+.icon-ring.fill-toggle.hulk:hover:before,
+.icon-ring.fill-toggle.hulk:focus:before,
+.ken-bg,
+.icon-ring.fill.ken:before,
+.icon-ring.fill-toggle.ken:hover:before,
+.icon-ring.fill-toggle.ken:focus:before,
+.kermit-bg,
+.icon-ring.fill.kermit:before,
+.icon-ring.fill-toggle.kermit:hover:before,
+.icon-ring.fill-toggle.kermit:focus:before,
+.maggie-bg,
+.icon-ring.fill.maggie:before,
+.icon-ring.fill-toggle.maggie:hover:before,
+.icon-ring.fill-toggle.maggie:focus:before,
+.prince-bg,
+.icon-ring.fill.prince:before,
+.icon-ring.fill-toggle.prince:hover:before,
+.icon-ring.fill-toggle.prince:focus:before,
+.vader-bg,
+.icon-ring.fill.vader:before,
+.icon-ring.fill-toggle.vader:hover:before,
+.icon-ring.fill-toggle.vader:focus:before,
+.barry-bg,
+.icon-ring.fill.barry:before,
+.icon-ring.fill-toggle.barry:hover:before,
+.icon-ring.fill-toggle.barry:focus:before,
+.wuntu-homer-bg,
+.icon-ring.fill.wuntu-homer:before,
+.icon-ring.fill-toggle.wuntu-homer:hover:before,
+.icon-ring.fill-toggle.wuntu-homer:focus:before,
+.wuntu-marge-bg,
+.icon-ring.fill.wuntu-marge:before,
+.icon-ring.fill-toggle.wuntu-marge:hover:before,
+.icon-ring.fill-toggle.wuntu-marge:focus:before,
+.wuntu-ralph-bg,
+.icon-ring.fill.wuntu-ralph:before,
+.icon-ring.fill-toggle.wuntu-ralph:hover:before,
+.icon-ring.fill-toggle.wuntu-ralph:focus:before,
+.wuntu-blinky-bg,
+.icon-ring.fill.wuntu-blinky:before,
+.icon-ring.fill-toggle.wuntu-blinky:hover:before,
+.icon-ring.fill-toggle.wuntu-blinky:focus:before,
+.wuntu-patty-bg,
+.icon-ring.fill.wuntu-patty:before,
+.icon-ring.fill-toggle.wuntu-patty:hover:before,
+.icon-ring.fill-toggle.wuntu-patty:focus:before,
+.wuntu-krusty-bg,
+.icon-ring.fill.wuntu-krusty:before,
+.icon-ring.fill-toggle.wuntu-krusty:hover:before,
+.icon-ring.fill-toggle.wuntu-krusty:focus:before,
+.wuntu-terri-bg,
+.icon-ring.fill.wuntu-terri:before,
+.icon-ring.fill-toggle.wuntu-terri:hover:before,
+.icon-ring.fill-toggle.wuntu-terri:focus:before,
+.wuntu-itchy-bg,
+.icon-ring.fill.wuntu-itchy:before,
+.icon-ring.fill-toggle.wuntu-itchy:hover:before,
+.icon-ring.fill-toggle.wuntu-itchy:focus:before,
+.wuntu-willie-bg,
+.icon-ring.fill.wuntu-willie:before,
+.icon-ring.fill-toggle.wuntu-willie:hover:before,
+.icon-ring.fill-toggle.wuntu-willie:focus:before {
+    color: #fff
+}
+
+.barbie,
+[class*=icon-].barbie:before {
+    color: #e90066
+}
+
+.barbie-bg,
+.icon-ring.fill.barbie:before,
+.icon-ring.fill-toggle.barbie:hover:before,
+.icon-ring.fill-toggle.barbie:focus:before {
+    background-color: #e90066
+}
+
+.barbie-border,
+.icon-ring.barbie:before {
+    border-color: #e90066
+}
+
+.clooney,
+[class*=icon-].clooney:before {
+    color: #767676
+}
+
+.clooney-bg,
+.icon-ring.fill.clooney:before,
+.icon-ring.fill-toggle.clooney:hover:before,
+.icon-ring.fill-toggle.clooney:focus:before {
+    background-color: #767676
+}
+
+.clooney-border,
+.icon-ring.clooney:before {
+    border-color: #767676
+}
+
+.hucknall,
+[class*=icon-].hucknall:before {
+    color: #dc350e
+}
+
+.hucknall-bg,
+.icon-ring.fill.hucknall:before,
+.icon-ring.fill-toggle.hucknall:hover:before,
+.icon-ring.fill-toggle.hucknall:focus:before {
+    background-color: #dc350e
+}
+
+.hucknall-border,
+.icon-ring.hucknall:before {
+    border-color: #dc350e
+}
+
+.hulk,
+[class*=icon-].hulk:before {
+    color: #00864e
+}
+
+.hulk-bg,
+.icon-ring.fill.hulk:before,
+.icon-ring.fill-toggle.hulk:hover:before,
+.icon-ring.fill-toggle.hulk:focus:before {
+    background-color: #00864e
+}
+
+.hulk-border,
+.icon-ring.hulk:before {
+    border-color: #00864e
+}
+
+.ken,
+[class*=icon-].ken:before {
+    color: #ec0044
+}
+
+.ken-bg,
+.icon-ring.fill.ken:before,
+.icon-ring.fill-toggle.ken:hover:before,
+.icon-ring.fill-toggle.ken:focus:before {
+    background-color: #ec0044
+}
+
+.ken-border,
+.icon-ring.ken:before {
+    border-color: #ec0044
+}
+
+.kermit,
+[class*=icon-].kermit:before {
+    color: #00857b
+}
+
+.kermit-bg,
+.icon-ring.fill.kermit:before,
+.icon-ring.fill-toggle.kermit:hover:before,
+.icon-ring.fill-toggle.kermit:focus:before {
+    background-color: #00857b
+}
+
+.kermit-border,
+.icon-ring.kermit:before {
+    border-color: #00857b
+}
+
+.maggie,
+[class*=icon-].maggie:before {
+    color: #007bc3
+}
+
+.maggie-bg,
+.icon-ring.fill.maggie:before,
+.icon-ring.fill-toggle.maggie:hover:before,
+.icon-ring.fill-toggle.maggie:focus:before {
+    background-color: #007bc3
+}
+
+.maggie-border,
+.icon-ring.maggie:before {
+    border-color: #007bc3
+}
+
+.prince,
+[class*=icon-].prince:before {
+    color: #82368c
+}
+
+.prince-bg,
+.icon-ring.fill.prince:before,
+.icon-ring.fill-toggle.prince:hover:before,
+.icon-ring.fill-toggle.prince:focus:before {
+    background-color: #82368c
+}
+
+.prince-border,
+.icon-ring.prince:before {
+    border-color: #82368c
+}
+
+.vader,
+.barbie-bg20,
+.barbie-bg60,
+.clooney-bg20,
+.clooney-bg60,
+.hucknall-bg20,
+.hucknall-bg60,
+.hulk-bg20,
+.hulk-bg60,
+.ken-bg20,
+.ken-bg60,
+.kermit-bg20,
+.kermit-bg60,
+.maggie-bg20,
+.maggie-bg60,
+.prince-bg20,
+.prince-bg60,
+.vader-bg20,
+.vader-bg60,
+.barry-bg20,
+.barry-bg60,
+.wuntu-homer-bg20,
+.wuntu-homer-bg60,
+.wuntu-marge-bg20,
+.wuntu-marge-bg60,
+.wuntu-ralph-bg20,
+.wuntu-ralph-bg60,
+.wuntu-blinky-bg20,
+.wuntu-blinky-bg60,
+.wuntu-patty-bg20,
+.wuntu-patty-bg60,
+.wuntu-krusty-bg20,
+.wuntu-krusty-bg60,
+.wuntu-terri-bg20,
+.wuntu-terri-bg60,
+.wuntu-itchy-bg20,
+.wuntu-itchy-bg60,
+.wuntu-willie-bg20,
+.wuntu-willie-bg60,
+[class*=icon-].vader:before {
+    color: #000
+}
+
+.vader-bg,
+.icon-ring.fill.vader:before,
+.icon-ring.fill-toggle.vader:hover:before,
+.icon-ring.fill-toggle.vader:focus:before {
+    background-color: #000
+}
+
+.vader-border,
+.icon-ring.vader:before {
+    border-color: #000
+}
+
+.barry,
+[class*=icon-].barry:before {
+    color: #fff
+}
+
+.barry-bg,
+.icon-ring.fill.barry:before,
+.icon-ring.fill-toggle.barry:hover:before,
+.icon-ring.fill-toggle.barry:focus:before {
+    background-color: #fff
+}
+
+.barry-border,
+.icon-ring.barry:before {
+    border-color: #fff
+}
+
+.wuntu-homer {
+    color: #f4e765
+}
+
+.wuntu-homer-bg,
+.icon-ring.fill.wuntu-homer:before,
+.icon-ring.fill-toggle.wuntu-homer:hover:before,
+.icon-ring.fill-toggle.wuntu-homer:focus:before {
+    background-color: #f4e765
+}
+
+.wuntu-homer-border,
+.icon-ring.wuntu-homer:before {
+    border-color: #f4e765
+}
+
+.wuntu-marge {
+    color: #6bb3e6
+}
+
+.wuntu-marge-bg,
+.icon-ring.fill.wuntu-marge:before,
+.icon-ring.fill-toggle.wuntu-marge:hover:before,
+.icon-ring.fill-toggle.wuntu-marge:focus:before {
+    background-color: #6bb3e6
+}
+
+.wuntu-marge-border,
+.icon-ring.wuntu-marge:before {
+    border-color: #6bb3e6
+}
+
+.wuntu-ralph {
+    color: #a1d9dc
+}
+
+.wuntu-ralph-bg,
+.icon-ring.fill.wuntu-ralph:before,
+.icon-ring.fill-toggle.wuntu-ralph:hover:before,
+.icon-ring.fill-toggle.wuntu-ralph:focus:before {
+    background-color: #a1d9dc
+}
+
+.wuntu-ralph-border,
+.icon-ring.wuntu-ralph:before {
+    border-color: #a1d9dc
+}
+
+.wuntu-blinky {
+    color: #f37a20
+}
+
+.wuntu-blinky-bg,
+.icon-ring.fill.wuntu-blinky:before,
+.icon-ring.fill-toggle.wuntu-blinky:hover:before,
+.icon-ring.fill-toggle.wuntu-blinky:focus:before {
+    background-color: #f37a20
+}
+
+.wuntu-blinky-border,
+.icon-ring.wuntu-blinky:before {
+    border-color: #f37a20
+}
+
+.wuntu-patty {
+    color: #ecabb9
+}
+
+.wuntu-patty-bg,
+.icon-ring.fill.wuntu-patty:before,
+.icon-ring.fill-toggle.wuntu-patty:hover:before,
+.icon-ring.fill-toggle.wuntu-patty:focus:before {
+    background-color: #ecabb9
+}
+
+.wuntu-patty-border,
+.icon-ring.wuntu-patty:before {
+    border-color: #ecabb9
+}
+
+.wuntu-krusty {
+    color: #179b96
+}
+
+.wuntu-krusty-bg,
+.icon-ring.fill.wuntu-krusty:before,
+.icon-ring.fill-toggle.wuntu-krusty:hover:before,
+.icon-ring.fill-toggle.wuntu-krusty:focus:before {
+    background-color: #179b96
+}
+
+.wuntu-krusty-border,
+.icon-ring.wuntu-krusty:before {
+    border-color: #179b96
+}
+
+.wuntu-terri {
+    color: #7070b4
+}
+
+.wuntu-terri-bg,
+.icon-ring.fill.wuntu-terri:before,
+.icon-ring.fill-toggle.wuntu-terri:hover:before,
+.icon-ring.fill-toggle.wuntu-terri:focus:before {
+    background-color: #7070b4
+}
+
+.wuntu-terri-border,
+.icon-ring.wuntu-terri:before {
+    border-color: #7070b4
+}
+
+.wuntu-itchy {
+    color: #a2d0ca
+}
+
+.wuntu-itchy-bg,
+.icon-ring.fill.wuntu-itchy:before,
+.icon-ring.fill-toggle.wuntu-itchy:hover:before,
+.icon-ring.fill-toggle.wuntu-itchy:focus:before {
+    background-color: #a2d0ca
+}
+
+.wuntu-itchy-border,
+.icon-ring.wuntu-itchy:before {
+    border-color: #a2d0ca
+}
+
+.wuntu-willie {
+    color: #ed343e
+}
+
+.wuntu-willie-bg,
+.icon-ring.fill.wuntu-willie:before,
+.icon-ring.fill-toggle.wuntu-willie:hover:before,
+.icon-ring.fill-toggle.wuntu-willie:focus:before {
+    background-color: #ed343e
+}
+
+.wuntu-willie-border,
+.icon-ring.wuntu-willie:before {
+    border-color: #ed343e
+}
+
+.barbie-border,
+.clooney-border,
+.hucknall-border,
+.hulk-border,
+.ken-border,
+.kermit-border,
+.maggie-border,
+.prince-border,
+.vader-border,
+.barry-border,
+.wuntu-homer-border,
+.wuntu-marge-border,
+.wuntu-ralph-border,
+.wuntu-blinky-border,
+.wuntu-patty-border,
+.wuntu-krusty-border,
+.wuntu-terri-border,
+.wuntu-itchy-border,
+.wuntu-willie-border {
+    border-width: 4px;
+    border-style: solid
+}
+
+.barbie-bg20 {
+    background-color: #facce0
+}
+
+.barbie-bg60 {
+    background-color: #f166a3
+}
+
+.clooney-bg20 {
+    background-color: #e3e3e3
+}
+
+.clooney-bg60 {
+    background-color: #acacac
+}
+
+.hucknall-bg20 {
+    background-color: #f8d6ce
+}
+
+.hucknall-bg60 {
+    background-color: #ea856e
+}
+
+.hulk-bg20 {
+    background-color: #cce6db
+}
+
+.hulk-bg60 {
+    background-color: #66b694
+}
+
+.ken-bg20 {
+    background-color: #fbccd9
+}
+
+.ken-bg60 {
+    background-color: #f3668e
+}
+
+.kermit-bg20 {
+    background-color: #cce6e4
+}
+
+.kermit-bg60 {
+    background-color: #66b5af
+}
+
+.maggie-bg20 {
+    background-color: #cce4f3
+}
+
+.maggie-bg60 {
+    background-color: #66afdb
+}
+
+.prince-bg20 {
+    background-color: #e6d6e8
+}
+
+.prince-bg60 {
+    background-color: #b486ba
+}
+
+.vader-bg20 {
+    background-color: #ccc
+}
+
+.vader-bg60 {
+    background-color: #666
+}
+
+.barry-bg20,
+.barry-bg60 {
+    background-color: #fff
+}
+
+.wuntu-homer-bg20 {
+    background-color: #fcfae0
+}
+
+.wuntu-homer-bg60 {
+    background-color: #f8f0a2
+}
+
+.wuntu-marge-bg20 {
+    background-color: #e1effa
+}
+
+.wuntu-marge-bg60 {
+    background-color: #a6d1f0
+}
+
+.wuntu-ralph-bg20 {
+    background-color: #ecf7f8
+}
+
+.wuntu-ralph-bg60 {
+    background-color: #c6e8ea
+}
+
+.wuntu-blinky-bg20 {
+    background-color: #fce4d2
+}
+
+.wuntu-blinky-bg60 {
+    background-color: #f7af79
+}
+
+.wuntu-patty-bg20 {
+    background-color: #fbeef1
+}
+
+.wuntu-patty-bg60 {
+    background-color: #f3ccd5
+}
+
+.wuntu-krusty-bg20 {
+    background-color: #d0ebea
+}
+
+.wuntu-krusty-bg60 {
+    background-color: #73c3c0
+}
+
+.wuntu-terri-bg20 {
+    background-color: #e2e2f0
+}
+
+.wuntu-terri-bg60 {
+    background-color: #a9a9d2
+}
+
+.wuntu-itchy-bg20 {
+    background-color: #ecf5f4
+}
+
+.wuntu-itchy-bg60 {
+    background-color: #c7e2df
+}
+
+.wuntu-willie-bg20 {
+    background-color: #fbd6d8
+}
+
+.wuntu-willie-bg60 {
+    background-color: #f4858b
+}
+
+[class$="-hr-top"] {
+    border-top-width: 1px;
+    border-top-style: solid
+}
+
+[class$="-hr-bottom"] {
+    border-bottom-width: 1px;
+    border-bottom-style: solid
+}
+
+.barbie-hr-top {
+    border-top-color: #e90066
+}
+
+.barbie20-hr-top {
+    border-top-color: #facce0
+}
+
+.barbie60-hr-top {
+    border-top-color: #f166a3
+}
+
+.barbie-hr-bottom {
+    border-bottom-color: #e90066
+}
+
+.barbie20-hr-bottom {
+    border-bottom-color: #facce0
+}
+
+.barbie60-hr-bottom {
+    border-bottom-color: #f166a3
+}
+
+.clooney-hr-top {
+    border-top-color: #767676
+}
+
+.clooney20-hr-top {
+    border-top-color: #e3e3e3
+}
+
+.clooney60-hr-top {
+    border-top-color: #acacac
+}
+
+.clooney-hr-bottom {
+    border-bottom-color: #767676
+}
+
+.clooney20-hr-bottom {
+    border-bottom-color: #e3e3e3
+}
+
+.clooney60-hr-bottom {
+    border-bottom-color: #acacac
+}
+
+.hucknall-hr-top {
+    border-top-color: #dc350e
+}
+
+.hucknall20-hr-top {
+    border-top-color: #f8d6ce
+}
+
+.hucknall60-hr-top {
+    border-top-color: #ea856e
+}
+
+.hucknall-hr-bottom {
+    border-bottom-color: #dc350e
+}
+
+.hucknall20-hr-bottom {
+    border-bottom-color: #f8d6ce
+}
+
+.hucknall60-hr-bottom {
+    border-bottom-color: #ea856e
+}
+
+.hulk-hr-top {
+    border-top-color: #00864e
+}
+
+.hulk20-hr-top {
+    border-top-color: #cce6db
+}
+
+.hulk60-hr-top {
+    border-top-color: #66b694
+}
+
+.hulk-hr-bottom {
+    border-bottom-color: #00864e
+}
+
+.hulk20-hr-bottom {
+    border-bottom-color: #cce6db
+}
+
+.hulk60-hr-bottom {
+    border-bottom-color: #66b694
+}
+
+.ken-hr-top {
+    border-top-color: #ec0044
+}
+
+.ken20-hr-top {
+    border-top-color: #fbccd9
+}
+
+.ken60-hr-top {
+    border-top-color: #f3668e
+}
+
+.ken-hr-bottom {
+    border-bottom-color: #ec0044
+}
+
+.ken20-hr-bottom {
+    border-bottom-color: #fbccd9
+}
+
+.ken60-hr-bottom {
+    border-bottom-color: #f3668e
+}
+
+.kermit-hr-top {
+    border-top-color: #00857b
+}
+
+.kermit20-hr-top {
+    border-top-color: #cce6e4
+}
+
+.kermit60-hr-top {
+    border-top-color: #66b5af
+}
+
+.kermit-hr-bottom {
+    border-bottom-color: #00857b
+}
+
+.kermit20-hr-bottom {
+    border-bottom-color: #cce6e4
+}
+
+.kermit60-hr-bottom {
+    border-bottom-color: #66b5af
+}
+
+.maggie-hr-top {
+    border-top-color: #007bc3
+}
+
+.maggie20-hr-top {
+    border-top-color: #cce4f3
+}
+
+.maggie60-hr-top {
+    border-top-color: #66afdb
+}
+
+.maggie-hr-bottom {
+    border-bottom-color: #007bc3
+}
+
+.maggie20-hr-bottom {
+    border-bottom-color: #cce4f3
+}
+
+.maggie60-hr-bottom {
+    border-bottom-color: #66afdb
+}
+
+.prince-hr-top {
+    border-top-color: #82368c
+}
+
+.prince20-hr-top {
+    border-top-color: #e6d6e8
+}
+
+.prince60-hr-top {
+    border-top-color: #b486ba
+}
+
+.prince-hr-bottom {
+    border-bottom-color: #82368c
+}
+
+.prince20-hr-bottom {
+    border-bottom-color: #e6d6e8
+}
+
+.prince60-hr-bottom {
+    border-bottom-color: #b486ba
+}
+
+.vader-hr-top {
+    border-top-color: #000
+}
+
+.vader20-hr-top {
+    border-top-color: #ccc
+}
+
+.vader60-hr-top {
+    border-top-color: #666
+}
+
+.vader-hr-bottom {
+    border-bottom-color: #000
+}
+
+.vader20-hr-bottom {
+    border-bottom-color: #ccc
+}
+
+.vader60-hr-bottom {
+    border-bottom-color: #666
+}
+
+.barry-hr-top,
+.barry20-hr-top,
+.barry60-hr-top {
+    border-top-color: #fff
+}
+
+.barry-hr-bottom,
+.barry20-hr-bottom,
+.barry60-hr-bottom {
+    border-bottom-color: #fff
+}
+
+.wuntu-homer-hr-top {
+    border-top-color: #f4e765
+}
+
+.wuntu-homer20-hr-top {
+    border-top-color: #fcfae0
+}
+
+.wuntu-homer60-hr-top {
+    border-top-color: #f8f0a2
+}
+
+.wuntu-homer-hr-bottom {
+    border-bottom-color: #f4e765
+}
+
+.wuntu-homer20-hr-bottom {
+    border-bottom-color: #fcfae0
+}
+
+.wuntu-homer60-hr-bottom {
+    border-bottom-color: #f8f0a2
+}
+
+.wuntu-marge-hr-top {
+    border-top-color: #6bb3e6
+}
+
+.wuntu-marge20-hr-top {
+    border-top-color: #e1effa
+}
+
+.wuntu-marge60-hr-top {
+    border-top-color: #a6d1f0
+}
+
+.wuntu-marge-hr-bottom {
+    border-bottom-color: #6bb3e6
+}
+
+.wuntu-marge20-hr-bottom {
+    border-bottom-color: #e1effa
+}
+
+.wuntu-marge60-hr-bottom {
+    border-bottom-color: #a6d1f0
+}
+
+.wuntu-ralph-hr-top {
+    border-top-color: #a1d9dc
+}
+
+.wuntu-ralph20-hr-top {
+    border-top-color: #ecf7f8
+}
+
+.wuntu-ralph60-hr-top {
+    border-top-color: #c6e8ea
+}
+
+.wuntu-ralph-hr-bottom {
+    border-bottom-color: #a1d9dc
+}
+
+.wuntu-ralph20-hr-bottom {
+    border-bottom-color: #ecf7f8
+}
+
+.wuntu-ralph60-hr-bottom {
+    border-bottom-color: #c6e8ea
+}
+
+.wuntu-blinky-hr-top {
+    border-top-color: #f37a20
+}
+
+.wuntu-blinky20-hr-top {
+    border-top-color: #fce4d2
+}
+
+.wuntu-blinky60-hr-top {
+    border-top-color: #f7af79
+}
+
+.wuntu-blinky-hr-bottom {
+    border-bottom-color: #f37a20
+}
+
+.wuntu-blinky20-hr-bottom {
+    border-bottom-color: #fce4d2
+}
+
+.wuntu-blinky60-hr-bottom {
+    border-bottom-color: #f7af79
+}
+
+.wuntu-patty-hr-top {
+    border-top-color: #ecabb9
+}
+
+.wuntu-patty20-hr-top {
+    border-top-color: #fbeef1
+}
+
+.wuntu-patty60-hr-top {
+    border-top-color: #f3ccd5
+}
+
+.wuntu-patty-hr-bottom {
+    border-bottom-color: #ecabb9
+}
+
+.wuntu-patty20-hr-bottom {
+    border-bottom-color: #fbeef1
+}
+
+.wuntu-patty60-hr-bottom {
+    border-bottom-color: #f3ccd5
+}
+
+.wuntu-krusty-hr-top {
+    border-top-color: #179b96
+}
+
+.wuntu-krusty20-hr-top {
+    border-top-color: #d0ebea
+}
+
+.wuntu-krusty60-hr-top {
+    border-top-color: #73c3c0
+}
+
+.wuntu-krusty-hr-bottom {
+    border-bottom-color: #179b96
+}
+
+.wuntu-krusty20-hr-bottom {
+    border-bottom-color: #d0ebea
+}
+
+.wuntu-krusty60-hr-bottom {
+    border-bottom-color: #73c3c0
+}
+
+.wuntu-terri-hr-top {
+    border-top-color: #7070b4
+}
+
+.wuntu-terri20-hr-top {
+    border-top-color: #e2e2f0
+}
+
+.wuntu-terri60-hr-top {
+    border-top-color: #a9a9d2
+}
+
+.wuntu-terri-hr-bottom {
+    border-bottom-color: #7070b4
+}
+
+.wuntu-terri20-hr-bottom {
+    border-bottom-color: #e2e2f0
+}
+
+.wuntu-terri60-hr-bottom {
+    border-bottom-color: #a9a9d2
+}
+
+.wuntu-itchy-hr-top {
+    border-top-color: #a2d0ca
+}
+
+.wuntu-itchy20-hr-top {
+    border-top-color: #ecf5f4
+}
+
+.wuntu-itchy60-hr-top {
+    border-top-color: #c7e2df
+}
+
+.wuntu-itchy-hr-bottom {
+    border-bottom-color: #a2d0ca
+}
+
+.wuntu-itchy20-hr-bottom {
+    border-bottom-color: #ecf5f4
+}
+
+.wuntu-itchy60-hr-bottom {
+    border-bottom-color: #c7e2df
+}
+
+.wuntu-willie-hr-top {
+    border-top-color: #ed343e
+}
+
+.wuntu-willie20-hr-top {
+    border-top-color: #fbd6d8
+}
+
+.wuntu-willie60-hr-top {
+    border-top-color: #f4858b
+}
+
+.wuntu-willie-hr-bottom {
+    border-bottom-color: #ed343e
+}
+
+.wuntu-willie20-hr-bottom {
+    border-bottom-color: #fbd6d8
+}
+
+.wuntu-willie60-hr-bottom {
+    border-bottom-color: #f4858b
+}
+
+[class*=icon-].ken,
+[class*=icon-].hucknall,
+[class*=icon-].barbie,
+[class*=icon-].prince,
+[class*=icon-].maggie,
+[class*=icon-].kermit,
+[class*=icon-].hulk,
+[class*=icon-].clooney,
+[class*=icon-].vader,
+[class*=icon-].barry {
+    color: inherit
+}
+
+ul.icon-ring.bullet-icons.above li {
+    vertical-align: top
+}
+
+ul.icon-ring.bullet-icons.above li a.icon-ring {
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+    position: inherit
+}
+
+ul.icon-ring.bullet-icons.above li a.icon-ring p {
+    display: inline
+}
+
+ul.icon-ring.bullet-icons.above li a.icon-ring strong {
+    display: inline-block;
+    margin-bottom: 10px
+}
+
+.phone ul.icon-ring.above li {
+    width: 50%;
+    display: inline-block
+}
+
+.phone ul.icon-ring.above li a:before {
+    font-size: 13vw !important
+}
+
+.tablet ul.icon-ring.above li a:before {
+    font-size: 6vw !important
+}
+
+.gt-tablet ul.icon-ring.above li a:before {
+    font-size: 75px !important;
+    border-width: .08em
+}
+
+.ie8 ul.icon-ring.above li a:before,
+.icon-ring:before {
+    border-width: .08em
+}
+
+.icon-ring:before {
+    border-radius: 50%;
+    border-style: solid;
+    height: 1.3em;
+    line-height: 1.3em;
+    width: 1.3em !important
+}
+
+.icon-ring.banner-ring:before {
+    padding: .4em;
+    width: 1em !important;
+    border-width: .16em !important
+}
+
+.icon-ring.medium:before {
+    border-width: .08em;
+    height: 1.4em;
+    line-height: 1.4em;
+    width: 1.4em !important
+}
+
+.icon-ring.big:before {
+    border-width: .1em;
+    height: 1.8em;
+    line-height: 1.8em;
+    width: 1.8em !important
+}
+
+.icon-ring.fill-toggle:hover:before,
+.icon-ring.fill-toggle:focus:before {
+    transition: border .2s ease-in-out, background-color .4s ease-in-out
+}
+
+.icon-ring.fill-toggle:before {
+    transition: border .2s ease-in-out, background-color .2s ease-in-out
+}
+
+.phone .icon-ring.banner-ring {
+    float: left;
+    padding-left: 6vw
+}
+
+.phone .icon-ring.medium:before,
+.phone .icon-ring.big:before {
+    border-width: .1em
+}
+
+.icon-ring.disabled {
+    cursor: default;
+    pointer-events: none
+}
+
+.icon-ring.disabled em,
+.icon-ring.disabled a {
+    text-decoration: none
+}
+
+.icon-ring.disabled:before {
+    border-color: #767676 !important;
+    border-style: dashed;
+    color: #767676 !important
+}
+
+.icon-ring.fill-toggle.disabled:hover:before,
+.icon-ring.fill-toggle.disabled:focus:before {
+    background-color: transparent !important
+}
