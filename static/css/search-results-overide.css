@@ -1,0 +1,197 @@
+/*search forms*/
+
+#cse-search-box input[type="text"],
+#cse-search-box-top input[type="text"],
+#cse-search-box-bottom input[type="text"] {
+    -webkit-appearance: none;
+    /*IES-7: to remove rounded edges in Mac safari*/
+    border-radius: 0;
+}
+
+.branding {
+    display: none;
+    float: right;
+}
+
+.searchForm {
+    margin-bottom: 6px;
+    /*to adjust for the tabs' top margin */
+    margin-left: 4px;
+}
+
+#resultsPage .searchForm {
+    margin-left: 0;
+}
+
+#searchTerm,
+#searchTerm-top,
+#searchTerm-bottom,
+#searchTerm_web,
+#searchTerm-top_web,
+#searchTerm-bottom_web,
+#searchTerm_web,
+#searchTerm-top_web,
+#searchTerm-bottom_web {
+    background-image: url("/static/images/sitewide/search-background.gif") !important;
+    border: 0 none !important;
+    color: #999999 !important;
+    float: left !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
+    height: 28px !important;
+    margin: 0 !important;
+    outline: medium none !important;
+    padding: 3px 2px 1px 10px !important;
+    width: 546px !important;
+}
+
+#searchButton,
+#searchButton-top,
+#searchButton-bottom {
+    margin-left: 10px !important;
+}
+
+#searchTerm_web,
+#searchTerm-top_web,
+#searchTerm-bottom_web {
+    display: none;
+}
+
+#search_three,
+#search_three-top,
+#search_three-bottom,
+#search_web,
+#search_web-top,
+#search_web-bottom {
+    top: -9999px;
+    position: fixed;
+}
+
+#search_three label,
+#search_three-top label,
+#search_three-bottom label,
+#search_web label,
+#search_web-top label,
+#search_web-bottom label {
+    font-weight: normal;
+}
+
+.threeLabel {
+    margin-right: 20px;
+}
+
+.webLabel {
+    margin-left: 20px;
+}
+
+.selected {
+    font-weight: bold;
+}
+
+.searchSwichContainer,
+.searchSwichContainer-top,
+.searchSwichContainer-bottom {
+    font-size: 14px;
+    margin-bottom: 10px;
+    width: 558px;
+    visibility: hidden;
+    /*for non-JS browsers*/
+}
+
+.searchForm-top {
+    display: none;
+    width: 61%;
+    margin: auto;
+    margin-top: 20px;
+    /*to adjust from headerWrapper bottom padding*/
+}
+
+.searchForm-bottom {
+    display: none;
+    width: 61%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+/*----------------------*/
+
+#cse-search-box {
+    float: none !important;
+}
+
+.searchButton input[type="image"] {
+    margin-left: 10px !important;
+}
+
+#desktop-Privacy_Cookies .header_right {
+    height: 59px !important;
+}
+
+#store_unavailable .header_right {
+    height: 59px !important;
+}
+
+/*----------------------*/
+
+/*adjustments to previously existing elements*/
+
+#sd-overlay {
+    display: none;
+}
+
+#mainNavTabs {
+    padding-top: 3px;
+}
+
+.header_left_content {
+    margin-top: 0;
+    margin-left: 4px;
+}
+
+#desktop-Business .header_left_content,
+#desktop-About_Three .header_left_content,
+#desktop-SelfcareUk .header_left_content {
+    margin-left: 0;
+}
+
+#desktop-Privacy_Cookies .header_left_content {
+    margin-left: 3px;
+}
+
+#desktop-Business #navigation1,
+#desktop-About_Three #navigation1 {
+    height: 60px;
+}
+
+.header_right {
+    margin-top: 8px;
+}
+
+.header_right_content {
+    margin-top: 14px;
+}
+
+.header_container {
+    padding-bottom: 0px;
+}
+
+#mainNavTabs .subLinks {
+    top: 134px;
+}
+
+.mainContent,
+.headerWrapper {
+    background-color: #fff;
+}
+
+.headerWrapper {
+    padding-bottom: 20px;
+}
+
+.threeStoreLinkWrap {
+    margin-top: 12px !important;
+}
+
+#desktop-SelfcareUk .threeStoreLinkWrap {
+    margin-top: 5px !important;
+}

@@ -1,0 +1,304 @@
+H1,
+.h1 {
+    margin-top: 2.5rem
+}
+
+H1,
+.h1,
+.main a.h1,
+.main p.h1 {
+    font-size: 54px
+}
+
+.phone H1,
+.phone .h1,
+.phone .main a.h1,
+.main .phone a.h1,
+.phone .main p.h1,
+.main .phone p.h1 {
+    font-size: 2.125rem
+}
+
+.tablet H1,
+.tablet .h1,
+.tablet .main a.h1,
+.main .tablet a.h1,
+.tablet .main p.h1,
+.main .tablet p.h1 {
+    font-size: 2.75rem
+}
+
+.gte-desktop H1,
+.gte-desktop .h1,
+.gte-desktop .main a.h1,
+.main .gte-desktop a.h1,
+.gte-desktop .main p.h1,
+.main .gte-desktop p.h1 {
+    font-size: 3.375rem
+}
+
+H1.small,
+.small.h1,
+.main a.small.h1,
+.main p.small.h1 {
+    font-size: 38px
+}
+
+.phone H1.small,
+.phone .small.h1 {
+    font-size: 1.625rem
+}
+
+.tablet H1.small,
+.tablet .small.h1 {
+    font-size: 2rem
+}
+
+.gte-desktop H1.small,
+.gte-desktop .small.h1 {
+    font-size: 2.375rem
+}
+
+H1.big,
+.big.h1,
+.main a.big.h1,
+.main p.big.h1 {
+    font-size: 74px
+}
+
+.phone H1.big,
+.phone .big.h1 {
+    font-size: 2.75rem
+}
+
+.tablet H1.big,
+.tablet .big.h1 {
+    font-size: 3.375rem
+}
+
+.gte-desktop H1.big,
+.gte-desktop .big.h1 {
+    font-size: 4.625rem
+}
+
+H1 *,
+.h1 *,
+.main a.h1 *,
+.main p.h1 * {
+    font-size: 1em
+}
+
+H1+P,
+H1+.p,
+H1+SECTION,
+H2,
+.h2,
+H2+P,
+H2+.p,
+H2+UL,
+H2+SECTION,
+H2+.float-right,
+H3 {
+    margin-top: 1.25rem
+}
+
+H2,
+.h2,
+.main a.h2,
+.main p.h2 {
+    font-size: 24px
+}
+
+.phone H2,
+.phone .h2,
+.phone .main a.h2,
+.main .phone a.h2,
+.phone .main p.h2,
+.main .phone p.h2 {
+    font-size: 1.25rem
+}
+
+.tablet H2,
+.tablet .h2,
+.tablet .main a.h2,
+.main .tablet a.h2,
+.tablet .main p.h2,
+.main .tablet p.h2,
+.gte-desktop H2,
+.gte-desktop .h2,
+.gte-desktop .main a.h2,
+.main .gte-desktop a.h2,
+.gte-desktop .main p.h2,
+.main .gte-desktop p.h2 {
+    font-size: 1.5rem
+}
+
+H2.small,
+.small.h2,
+.main a.small.h2,
+.main p.small.h2 {
+    font-size: 20px
+}
+
+.phone H2.small,
+.phone .small.h2,
+.tablet H2.small,
+.tablet .small.h2,
+.gte-desktop H2.small,
+.gte-desktop .small.h2 {
+    font-size: 1.25rem
+}
+
+H2 *,
+.h2 *,
+.main a.h2 *,
+.main p.h2 * {
+    font-size: 1em
+}
+
+:not(LI)>P:not(:first-child),
+:not(LI)>.p:not(:first-child),
+LI {
+    margin-top: .625rem
+}
+
+H3,
+.main P,
+.main .p,
+.main A,
+[class*=each-span]>LI,
+[class*=bullet-icons]>LI {
+    font-size: 16px
+}
+
+.phone H3,
+.phone .main P,
+.main .phone P,
+.phone .main .p,
+.main .phone .p,
+.phone .main A,
+.main .phone A,
+.phone [class*=each-span]>LI,
+.phone [class*=bullet-icons]>LI,
+.tablet H3,
+.tablet .main P,
+.main .tablet P,
+.tablet .main .p,
+.main .tablet .p,
+.tablet .main A,
+.main .tablet A,
+.tablet [class*=each-span]>LI,
+.tablet [class*=bullet-icons]>LI {
+    font-size: .875rem
+}
+
+.gte-desktop H3,
+.gte-desktop .main P,
+.main .gte-desktop P,
+.gte-desktop .main .p,
+.main .gte-desktop .p,
+.gte-desktop .main A,
+.main .gte-desktop A,
+.gte-desktop [class*=each-span]>LI,
+.gte-desktop [class*=bullet-icons]>LI {
+    font-size: 1rem
+}
+
+H3.small,
+.main P.small,
+.main .small.p,
+.main A.small,
+[class*=each-span]>LI.small,
+[class*=bullet-icons]>LI.small {
+    font-size: 14px
+}
+
+.phone H3.small,
+.phone .main P.small,
+.main .phone P.small,
+.phone .main .small.p,
+.main .phone .small.p,
+.phone .main A.small,
+.main .phone A.small,
+.phone [class*=each-span]>LI.small,
+.phone [class*=bullet-icons]>LI.small,
+.tablet H3.small,
+.tablet .main P.small,
+.main .tablet P.small,
+.tablet .main .small.p,
+.main .tablet .small.p,
+.tablet .main A.small,
+.main .tablet A.small,
+.tablet [class*=each-span]>LI.small,
+.tablet [class*=bullet-icons]>LI.small {
+    font-size: .75rem
+}
+
+.gte-desktop H3.small,
+.gte-desktop .main P.small,
+.main .gte-desktop P.small,
+.gte-desktop .main .small.p,
+.main .gte-desktop .small.p,
+.gte-desktop .main A.small,
+.main .gte-desktop A.small,
+.gte-desktop [class*=each-span]>LI.small,
+.gte-desktop [class*=bullet-icons]>LI.small {
+    font-size: .875rem
+}
+
+H3 *,
+.main P *,
+.main .p *,
+.main A *,
+[class*=each-span]>LI *,
+[class*=bullet-icons]>LI * {
+    font-size: 1em
+}
+
+H1,
+.h1,
+H2,
+.h2,
+H3,
+.h3 {
+    font-weight: 700
+}
+
+.h1,
+.h2,
+.h3,
+.p {
+    display: block
+}
+
+UL {
+    list-style: none
+}
+
+IMG {
+    width: 100%;
+    max-width: 100%
+}
+
+#head IMG {
+    width: auto
+}
+
+.text-align-left {
+    text-align: left
+}
+
+.text-align-right {
+    text-align: right
+}
+
+.text-align-center {
+    text-align: center
+}
+
+.underline,
+A.underline {
+    text-decoration: underline
+}
+
+/*# sourceMappingURL=type.min.css.map */

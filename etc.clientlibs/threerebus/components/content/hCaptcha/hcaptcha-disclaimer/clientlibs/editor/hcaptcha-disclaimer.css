@@ -1,0 +1,33 @@
+.hcaptcha-disclaimer .disclaimer-link {
+    margin-bottom: 30px;
+    display: table;
+}
+
+.hcaptcha-disclaimer .disclaimer-link span {
+    margin-left: 5px;
+    vertical-align: sub;
+    display: inline-flex;
+}
+
+.hcaptcha-disclaimer .disclaimer-link svg {
+    height: 20px;
+    width: 20px;
+}
+
+.hcaptcha-disclaimer .disclaimer-link svg path {
+    fill: #0074b8;
+}
+
+.hcaptcha-disclaimer a:focus svg path,
+.hcaptcha-disclaimer a:active svg path,
+.hcaptcha-disclaimer a:hover svg path {
+    fill: #00456E;
+}
+
+.hcaptcha-disclaimer a.visited svg path {
+    fill: #82368c;
+}
+
+.hcaptcha-disclaimer .custom-para p:empty {
+    display: none;
+}
