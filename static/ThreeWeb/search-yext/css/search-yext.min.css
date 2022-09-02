@@ -1,0 +1,188 @@
+.phone .search_form {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80%
+}
+
+.search_form {
+    width: 32.203%;
+    float: left;
+    margin-right: 1.695%;
+    padding-bottom: 30px;
+    padding-top: 9px;
+    margin-left: 0
+}
+
+.search_form ul.yxt-AutoComplete-results {
+    margin-left: 0;
+    list-style: none
+}
+
+.search_form ul.yxt-AutoComplete-results li {
+    margin-top: 0.625rem;
+    display: list-item
+}
+
+.search_form .yxt-SearchBar-title,
+.search_form .yxt-SearchBar-buttonText,
+.search_form .yxt-SearchBar-buttonImage,
+.search_form .yxt-SearchBar-clear,
+.search_form .yxt-SearchBar-label {
+    display: none
+}
+
+.search_form .yxt-SearchBar-form {
+    position: relative
+}
+
+.search_form .yxt-SearchBar-form .yxt-SearchBar-input {
+    height: 45px;
+    padding-left: 10px;
+    padding-right: 45px;
+    margin-right: -45px;
+    width: 100%;
+    border: 1px solid #000;
+    -webkit-appearance: none;
+    margin-bottom: 0
+}
+
+.search_form .yxt-SearchBar-button {
+    height: 45px !important;
+    width: 45px;
+    line-height: 47px;
+    outline: none;
+    border-left: solid #141414 1px;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    position: absolute;
+    font-size: 1.35em;
+    background-color: transparent;
+    padding: 1px 7px 2px 7px
+}
+
+.search_form .yxt-SearchBar-button:hover {
+    background-color: #141414
+}
+
+.search_form .yxt-SearchBar-button:before,
+.search_form .yxt-SearchBar-clear:before {
+    font-family: "h3g-icons";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased
+}
+
+.search_form .yxt-AutoComplete-option--promptHeader {
+    font-weight: 700
+}
+
+.search_form .yxt-AutoComplete-option--item:hover {
+    text-decoration: underline;
+    cursor: pointer
+}
+
+.search_form .yxt-SearchBar-autocomplete {
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    border-top: 0px;
+    z-index: 10;
+    padding: 0px 20px 10px 20px;
+    color: black
+}
+
+.search_form .yxt-SearchBar-autocomplete:empty {
+    border: none;
+    display: none
+}
+
+.search_form .yxt-SearchBar-button:before {
+    content: "\e61b"
+}
+
+.search_form .yxt-SearchBar-button:hover {
+    color: white
+}
+
+.search_form .yxt-SearchBar-clear:before {
+    content: "\e916"
+}
+
+.search_form_support {
+    --border-light-grey: #dfddde
+}
+
+.search_form_support .yxt-SearchBar-title,
+.search_form_support .yxt-SearchBar-buttonImage,
+.search_form_support .yxt-SearchBar-clear,
+.search_form_support .yxt-SearchBar-label {
+    display: none
+}
+
+.search_form_support .yxt-SearchBar-form .yxt-SearchBar-input {
+    border: 1px solid black;
+    display: inline-block;
+    font-size: 1.1rem;
+    padding: 0 0.5em;
+    height: 2.6rem;
+    overflow: hidden;
+    white-space: nowrap;
+    -webkit-appearance: none;
+    vertical-align: middle;
+    width: 100%
+}
+
+.search_form_support .yxt-SearchBar-autocomplete {
+    position: absolute;
+    background-color: white;
+    border: 1px solid var(--border-light-grey);
+    border-top: 0px;
+    z-index: 10;
+    padding: 0px 20px 10px 20px;
+    top: 2.6rem
+}
+
+.search_form_support .yxt-SearchBar-autocomplete:empty {
+    border: none;
+    display: none
+}
+
+.search_form_support .yxt-SearchBar-button {
+    margin-top: 30px
+}
+
+.search_form_support .yxt-AutoComplete-option--promptHeader {
+    font-weight: 700
+}
+
+.search_form_support .yxt-AutoComplete-option--item:hover {
+    text-decoration: underline;
+    cursor: pointer
+}
+
+.search_form_support .yxt-SearchBar-container {
+    position: relative
+}
+
+.gte-tablet .search_form_support .yxt-SearchBar-form .yxt-SearchBar-input {
+    width: 69%;
+    margin-right: 1em
+}
+
+.gte-tablet .search_form_support .yxt-SearchBar-button {
+    width: calc(29% - 1em);
+    margin-top: 0
+}
+
+.gte-tablet .search_form_support .yxt-SearchBar-autocomplete {
+    top: auto
+}
+
+#head {
+    overflow: visible
+}
