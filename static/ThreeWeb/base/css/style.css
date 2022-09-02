@@ -61,17 +61,17 @@
 		padding: 0;
 	}
 	.phone #head .search_form .yxt-SearchBar button {
-		top: -55px;
+		top: -46px;
 	}
 	#head .personal-business-header {
 		padding: 0px 55px 0px 65px;
-		margin: 0;
+		margin: -1px;
 	}
 	#head .icon-menu {
 		line-height: 1;
 	}
 	#head #home-and-menu{
-		padding: 25px 0;
+		padding: 18px 0;
 		padding-left: 35px;
 	}
 	#head .personal-business-header .tab {
@@ -80,8 +80,9 @@
 	}
 	#head #homelink img {
 		display: block;
-		height: 42px;
-		width: 42px;		
+		height: 40px;
+		width: 40px;
+		padding-top: 5px;		
 	}
 }
 
