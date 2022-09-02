@@ -8,7 +8,7 @@
 	text-decoration: none;
 }
 #head .icon-menu span.menu-label {
-	font-size: 18px;
+	font-size: 16px;
 	margin-left: 10px;
 	font-weight: 600;
 }
@@ -38,7 +38,7 @@
 	}
 	#head .icon-menu {
 		font-size: 26px;
-		padding-left: 10px
+		padding-left: 13px
 	}
 	.phone body section,
 	.phone body .section {
@@ -61,7 +61,7 @@
 		padding: 0;
 	}
 	.phone #head .search_form .yxt-SearchBar button {
-		top: -46px;
+		top: -40px;
 	}
 	#head .personal-business-header {
 		padding: 0px 55px 0px 65px;
@@ -71,7 +71,7 @@
 		line-height: 1;
 	}
 	#head #home-and-menu{
-		padding: 18px 0;
+		padding: 11px 0;
 		padding-left: 35px;
 	}
 	#head .personal-business-header .tab {
@@ -79,9 +79,13 @@
 		padding: 0;
 	}
 	#head #homelink img {
+		position: relative;
+		left: 0;
+		right: 0;
+		padding-left: 10px;
 		display: block;
-		height: 40px;
-		width: 40px;
+		height: 35px;
+		width: 35px;
 		padding-top: 5px;		
 	}
 }
